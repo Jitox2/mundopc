@@ -8,10 +8,11 @@ public class Monitor {
 	private static int contadorMonitores;
 	
 	private Monitor() {
-		this.idMonitor = ++Monitor.contadorMonitores;
+
 	}
 	
 	public Monitor(String marca, double tamano) {
+		this.idMonitor = ++Monitor.contadorMonitores;
 		this.marca = marca;
 		this.tamano = tamano;
 		
