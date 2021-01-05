@@ -26,6 +26,14 @@ public static void main(String args[]) {
 
 	orden.mostrarOrden();
 	
+Orden orden2 = new Orden();
+	
+	orden2.AgregarComputadora(computadora);
+	orden2.AgregarComputadora(computadora2);
+
+	orden2.mostrarOrden();
+	
+	
 
 }
 	
